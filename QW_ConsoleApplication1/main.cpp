@@ -68,7 +68,7 @@ void tracking(Mat frame, Mat &model, Rect &trackBox)
 int main(int argc, char * argv[])
 {
 	VideoCapture capture;
-	capture.open("alice.mp4");//读取视频文件
+	capture.open("david.mpg");//读取视频文件
 	bool fromfile = true;
 	//Init camera  
 	if (!capture.isOpened())
